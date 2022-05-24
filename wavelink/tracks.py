@@ -197,7 +197,7 @@ class SearchableTrack(Track, Searchable):
             if tracks:
                 return tracks[0]
             else:
-                return []
+                return None
 
         return tracks
 
